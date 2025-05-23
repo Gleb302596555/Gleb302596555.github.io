@@ -19,25 +19,39 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
     <div class="container-fluid p-0 flex-grow-1">
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8 bg-primary p-0 border-success rounded">
-          <ul class="nav justify-content-evenly border text-light">
-            <li class="nav-item">
-              <a class="nav-link text-light" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="product.html">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="education.html">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="over-me.html">Over me</a>
-            </li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary border-success rounded">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">Gleb's Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="product.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="education.html">Education</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-ligth" href="#" id="navbarDropdown" role="button" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu bg-primary border-success">
+            <li><a style="color: black;" class="dropdown-item " href="about-me.html">About Me</a></li>
+            <li><a style="color: black;" class="dropdown-item " href="contact.html">Contact</a></li>
           </ul>
-        </div>
-      </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
       <!-- Main Content for Education -->
       <div class="row mt-4">
@@ -46,6 +60,9 @@
           <p class="text-center">
             Here is a brief overview of my educational journey and academic
             achievements.
+
+
+            
           </p>
 
           <!-- Education List -->
